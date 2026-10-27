@@ -1,0 +1,11 @@
+package types
+
+type ClientboundTextureShiftPacketPayloadAction uint8
+
+const (
+	ClientboundTextureShiftPacketPayloadActionInvalid    ClientboundTextureShiftPacketPayloadAction = 0
+	ClientboundTextureShiftPacketPayloadActionInitialize ClientboundTextureShiftPacketPayloadAction = 1
+	ClientboundTextureShiftPacketPayloadActionStart      ClientboundTextureShiftPacketPayloadAction = 2
+	ClientboundTextureShiftPacketPayloadActionSetEnabled ClientboundTextureShiftPacketPayloadAction = 3
+	ClientboundTextureShiftPacketPayloadActionSync       ClientboundTextureShiftPacketPayloadAction = 4
+)

@@ -1,0 +1,8 @@
+package types
+
+type SharedTypesComprehensiveCameraPresetAudioListener uint8
+
+const (
+	SharedTypesComprehensiveCameraPresetAudioListenerCamera SharedTypesComprehensiveCameraPresetAudioListener = 0
+	SharedTypesComprehensiveCameraPresetAudioListenerPlayer SharedTypesComprehensiveCameraPresetAudioListener = 1
+)

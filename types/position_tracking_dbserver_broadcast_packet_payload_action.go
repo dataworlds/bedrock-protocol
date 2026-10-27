@@ -1,0 +1,9 @@
+package types
+
+type PositionTrackingDBServerBroadcastPacketPayloadAction uint8
+
+const (
+	PositionTrackingDBServerBroadcastPacketPayloadActionUpdate   PositionTrackingDBServerBroadcastPacketPayloadAction = 0
+	PositionTrackingDBServerBroadcastPacketPayloadActionDestroy  PositionTrackingDBServerBroadcastPacketPayloadAction = 1
+	PositionTrackingDBServerBroadcastPacketPayloadActionNotFound PositionTrackingDBServerBroadcastPacketPayloadAction = 2
+)

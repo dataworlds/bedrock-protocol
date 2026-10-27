@@ -1,0 +1,69 @@
+package types
+
+type PlayerAuthInputData int32
+
+const (
+	PlayerAuthInputDataAscend                     PlayerAuthInputData = 0
+	PlayerAuthInputDataDescend                    PlayerAuthInputData = 1
+	PlayerAuthInputDataJumpDown                   PlayerAuthInputData = 3
+	PlayerAuthInputDataSprintDown                 PlayerAuthInputData = 4
+	PlayerAuthInputDataChangeHeight               PlayerAuthInputData = 5
+	PlayerAuthInputDataJumping                    PlayerAuthInputData = 6
+	PlayerAuthInputDataAutoJumpingInWater         PlayerAuthInputData = 7
+	PlayerAuthInputDataSneaking                   PlayerAuthInputData = 8
+	PlayerAuthInputDataSneakDown                  PlayerAuthInputData = 9
+	PlayerAuthInputDataUp                         PlayerAuthInputData = 10
+	PlayerAuthInputDataDown                       PlayerAuthInputData = 11
+	PlayerAuthInputDataLeft                       PlayerAuthInputData = 12
+	PlayerAuthInputDataRight                      PlayerAuthInputData = 13
+	PlayerAuthInputDataUpLeft                     PlayerAuthInputData = 14
+	PlayerAuthInputDataUpRight                    PlayerAuthInputData = 15
+	PlayerAuthInputDataWantUp                     PlayerAuthInputData = 16
+	PlayerAuthInputDataWantDown                   PlayerAuthInputData = 17
+	PlayerAuthInputDataWantDownSlow               PlayerAuthInputData = 18
+	PlayerAuthInputDataWantUpSlow                 PlayerAuthInputData = 19
+	PlayerAuthInputDataSprinting                  PlayerAuthInputData = 20
+	PlayerAuthInputDataAscendBlock                PlayerAuthInputData = 21
+	PlayerAuthInputDataDescendBlock               PlayerAuthInputData = 22
+	PlayerAuthInputDataSneakToggleDown            PlayerAuthInputData = 23
+	PlayerAuthInputDataPersistSneak               PlayerAuthInputData = 24
+	PlayerAuthInputDataStartSprinting             PlayerAuthInputData = 25
+	PlayerAuthInputDataStopSprinting              PlayerAuthInputData = 26
+	PlayerAuthInputDataStartSneaking              PlayerAuthInputData = 27
+	PlayerAuthInputDataStopSneaking               PlayerAuthInputData = 28
+	PlayerAuthInputDataStartSwimming              PlayerAuthInputData = 29
+	PlayerAuthInputDataStopSwimming               PlayerAuthInputData = 30
+	PlayerAuthInputDataStartJumping               PlayerAuthInputData = 31
+	PlayerAuthInputDataStartGliding               PlayerAuthInputData = 32
+	PlayerAuthInputDataStopGliding                PlayerAuthInputData = 33
+	PlayerAuthInputDataPerformItemInteraction     PlayerAuthInputData = 34
+	PlayerAuthInputDataPerformBlockActions        PlayerAuthInputData = 35
+	PlayerAuthInputDataPerformItemStackRequest    PlayerAuthInputData = 36
+	PlayerAuthInputDataHandledTeleport            PlayerAuthInputData = 37
+	PlayerAuthInputDataEmoting                    PlayerAuthInputData = 38
+	PlayerAuthInputDataMissedSwing                PlayerAuthInputData = 39
+	PlayerAuthInputDataStartCrawling              PlayerAuthInputData = 40
+	PlayerAuthInputDataStopCrawling               PlayerAuthInputData = 41
+	PlayerAuthInputDataStartFlying                PlayerAuthInputData = 42
+	PlayerAuthInputDataStopFlying                 PlayerAuthInputData = 43
+	PlayerAuthInputDataClientAckServerData        PlayerAuthInputData = 44
+	PlayerAuthInputDataIsInClientPredictedVehicle PlayerAuthInputData = 45
+	PlayerAuthInputDataPaddlingLeft               PlayerAuthInputData = 46
+	PlayerAuthInputDataPaddlingRight              PlayerAuthInputData = 47
+	PlayerAuthInputDataBlockBreakingDelayEnabled  PlayerAuthInputData = 48
+	PlayerAuthInputDataHorizontalCollision        PlayerAuthInputData = 49
+	PlayerAuthInputDataVerticalCollision          PlayerAuthInputData = 50
+	PlayerAuthInputDataDownLeft                   PlayerAuthInputData = 51
+	PlayerAuthInputDataDownRight                  PlayerAuthInputData = 52
+	PlayerAuthInputDataStartUsingItem             PlayerAuthInputData = 53
+	PlayerAuthInputDataStartSpinAttack            PlayerAuthInputData = 56
+	PlayerAuthInputDataStopSpinAttack             PlayerAuthInputData = 57
+	PlayerAuthInputDataIsHotbarOnlyTouch          PlayerAuthInputData = 58
+	PlayerAuthInputDataJumpReleasedRaw            PlayerAuthInputData = 59
+	PlayerAuthInputDataJumpPressedRaw             PlayerAuthInputData = 60
+	PlayerAuthInputDataJumpCurrentRaw             PlayerAuthInputData = 61
+	PlayerAuthInputDataSneakReleasedRaw           PlayerAuthInputData = 62
+	PlayerAuthInputDataSneakPressedRaw            PlayerAuthInputData = 63
+	PlayerAuthInputDataSneakCurrentRaw            PlayerAuthInputData = 64
+	PlayerAuthInputDataInternalUpdate             PlayerAuthInputData = 65
+)

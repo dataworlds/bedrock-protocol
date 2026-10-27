@@ -1,0 +1,11 @@
+package types
+
+type SubChunkPacketPayloadHeightMapDataType uint8
+
+const (
+	SubChunkPacketPayloadHeightMapDataTypeNoData     SubChunkPacketPayloadHeightMapDataType = 0
+	SubChunkPacketPayloadHeightMapDataTypeHasData    SubChunkPacketPayloadHeightMapDataType = 1
+	SubChunkPacketPayloadHeightMapDataTypeAllTooHigh SubChunkPacketPayloadHeightMapDataType = 2
+	SubChunkPacketPayloadHeightMapDataTypeAllTooLow  SubChunkPacketPayloadHeightMapDataType = 3
+	SubChunkPacketPayloadHeightMapDataTypeAllCopied  SubChunkPacketPayloadHeightMapDataType = 4
+)

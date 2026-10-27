@@ -1,0 +1,7 @@
+package types
+
+type PositionTrackingDBClientRequestPacketPayloadAction uint8
+
+const (
+	PositionTrackingDBClientRequestPacketPayloadActionQuery PositionTrackingDBClientRequestPacketPayloadAction = 0
+)

@@ -1,0 +1,16 @@
+package types
+
+type ScriptModuleMinecraftScriptPrimitiveShapeType uint8
+
+const (
+	ScriptModuleMinecraftScriptPrimitiveShapeTypeLine      ScriptModuleMinecraftScriptPrimitiveShapeType = 0
+	ScriptModuleMinecraftScriptPrimitiveShapeTypeBox       ScriptModuleMinecraftScriptPrimitiveShapeType = 1
+	ScriptModuleMinecraftScriptPrimitiveShapeTypeSphere    ScriptModuleMinecraftScriptPrimitiveShapeType = 2
+	ScriptModuleMinecraftScriptPrimitiveShapeTypeCircle    ScriptModuleMinecraftScriptPrimitiveShapeType = 3
+	ScriptModuleMinecraftScriptPrimitiveShapeTypeText      ScriptModuleMinecraftScriptPrimitiveShapeType = 4
+	ScriptModuleMinecraftScriptPrimitiveShapeTypeArrow     ScriptModuleMinecraftScriptPrimitiveShapeType = 5
+	ScriptModuleMinecraftScriptPrimitiveShapeTypeCylinder  ScriptModuleMinecraftScriptPrimitiveShapeType = 6
+	ScriptModuleMinecraftScriptPrimitiveShapeTypePyramid   ScriptModuleMinecraftScriptPrimitiveShapeType = 7
+	ScriptModuleMinecraftScriptPrimitiveShapeTypeEllipsoid ScriptModuleMinecraftScriptPrimitiveShapeType = 8
+	ScriptModuleMinecraftScriptPrimitiveShapeTypeCone      ScriptModuleMinecraftScriptPrimitiveShapeType = 9
+)

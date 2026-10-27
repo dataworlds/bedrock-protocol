@@ -1,0 +1,55 @@
+package types
+
+type LevelSettings struct {
+	Seed                                   uint64
+	SpawnSettings                          SpawnSettings
+	GeneratorType                          GeneratorType
+	GameType                               GameType
+	IsHardcore                             bool
+	GameDifficulty                         Difficulty
+	DefaultSpawnBlockPosition              BlockPos
+	AchievementsDisabled                   bool
+	EditorWorldType                        EditorWorldType
+	IsCreatedInEditor                      bool
+	IsExportedFromEditor                   bool
+	EditorLevelMigrationVersion            EditorLevelMigrationVersion
+	DayCycleStopTime                       int32
+	EducationEditionOffer                  EducationEditionOffer
+	EducationFeaturesEnabled               bool
+	EducationProductID                     string
+	RainLevel                              float32
+	LightningLevel                         float32
+	HasConfirmedPlatformLockedContent      bool
+	MultiplayerGameIntent                  bool
+	LANBroadcastIntent                     bool
+	XboxLiveBroadcastSetting               GamePublishSetting
+	PlatformBroadcastSetting               GamePublishSetting
+	CommandsEnabled                        bool
+	TexturePacksRequired                   bool
+	RuleData                               GameRulesChangedPacketData
+	Experiments                            Experiments
+	HasBonusChestEnabled                   bool
+	StartWithMapEnabled                    bool
+	PlayerPermissions                      PlayerPermissionLevel
+	ServerChunkTickRange                   int32
+	HasLockedBehaviorPack                  bool
+	HasLockedResourcePack                  bool
+	IsFromLockedTemplate                   bool
+	UseMsaGamertagsOnly                    bool
+	IsFromWorldTemplate                    bool
+	IsWorldTemplateOptionLocked            bool
+	OnlySpawnV1Villagers                   bool
+	PersonaDisabled                        bool
+	CustomSkinsDisabled                    bool
+	EmoteChatMuted                         bool
+	BaseGameVersion                        string
+	LimitedWorldWidth                      int32
+	LimitedWorldDepth                      int32
+	NetherType                             bool
+	EduSharedUriResource                   EduSharedUriResource
+	OverrideForceExperimentalGameplay      *bool
+	ChatRestrictionLevel                   ChatRestrictionLevel
+	DisablePlayerInteractions              bool
+	ServerEditorConnectionPolicy           ServerEditorConnectionPolicy
+	AllowAnonymousBlockDropsInEditorWorlds bool
+}
